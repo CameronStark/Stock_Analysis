@@ -1,2 +1,2 @@
 # Stock_Analysis
-Module 2, 1st project
+Module 2
