@@ -120,3 +120,4 @@ Advantages:
 - Ideally, all of the above would allow you to correct the original code with something more efficient
 
 We must always consider the refactoring process as an essential piece of the coding process.  The main intent of refactoring is to augment the code for ease of reading and correcting blocks for efficiency.  When given a new set of code written by another, refactoring also provides us the opportunity to streamline and make more efficent a code that has been historically relied upon.  While my own results in terms of run-time may not display the benefits of refactoring, it is abundantly evident that the process is advantageous in terms of interpretation and opportunity for efficiency.
+  
