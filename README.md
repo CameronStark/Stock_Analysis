@@ -56,11 +56,67 @@ Step 3a:
 >Inside the for loop in Step 2b, write a script that increases the current tickerVolumes (stock ticker volume) variable and adds the ticker volume for the current stock ticker.
 Use the tickerIndex variable as the index.
 
-Here I created a nested loop to run through all of our listed variables, starting with tickerVolumes
+Here I created a nested loop to run through all of our listed variables, starting with tickerVolumes.  It is important to note that j is designated as our iterator instead of i
 
 ![image](https://user-images.githubusercontent.com/85717081/123566789-d0dd9b00-d77d-11eb-9b19-7240925cd8c4.png)
 
+Step 3b:
 
+>Write an if-then statement to check if the current row is the first row with the selected tickerIndex. If it is, then assign the current starting price to the tickerStartingPrices variable.
 
+-Here I begin the first If/Then statement, continuing with the j iterator.  The intent is to identify the first occurance of a cell in column 1 with the applicable tickerIndex, demarcating the starting price
 
+![image](https://user-images.githubusercontent.com/85717081/123567018-71cc5600-d77e-11eb-9d12-81bf30e537b7.png)
 
+Step 3c:
+
+>Write an if-then statement to check if the current row is the last row with the selected tickerIndex. If it is, then assign the current closing price to the tickerEndingPrices variable.
+
+-Here we are identifying the last occurance of the applicable cell to tickerIndex, demarcating the ending price
+
+![image](https://user-images.githubusercontent.com/85717081/123567491-83fac400-d77f-11eb-91aa-d1c73eef9c42.png)
+
+Step 3d:
+
+>Write a script that increases the tickerIndex if the next row’s ticker doesn’t match the previous row’s ticker.
+
+ -I must say, this instruction through me off a bit.  My thinking is this is acheived through the For loops.  I am quite uncertain, however.
+ 
+ Below you will find the performance between the 2017 and 2018 analyses, as well as the execution times of the original script and the refactored script.
+ 
+ #### 2017 Analysis
+ 
+![VBA_CHallenge_2017](https://user-images.githubusercontent.com/85717081/123567904-6da13800-d780-11eb-8dcd-633ea82fd0e3.PNG)
+![MsgBox2017Analysis](https://user-images.githubusercontent.com/85717081/123567931-7a259080-d780-11eb-8101-25dfad21992f.PNG)
+
+  #### 2018 Analysis
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/85717081/123567976-9295ab00-d780-11eb-831b-1f2b74e5a763.PNG)
+![MsgBox2018Analysis](https://user-images.githubusercontent.com/85717081/123568004-a3deb780-d780-11eb-8bdb-05f9f173de35.PNG)
+
+#### green_stocks 2017 Analysis
+
+![green_stocks_2017](https://user-images.githubusercontent.com/85717081/123568347-5c0c6000-d781-11eb-8d1b-ed2a9a9479cd.PNG)
+
+#### green_stocks 2018 Analysis
+
+![green_stocks_2018](https://user-images.githubusercontent.com/85717081/123568383-75151100-d781-11eb-9e67-2e762a2ef6f7.PNG)
+
+## Summary
+
+Both the 2017 and 2018 analyises had longer run times after refactoring.  This is a bit baffling and leads me to think I may have accidentally augmented the original code which may have made it more efficient.  The easiest way to determine this is to look through my commits.  Nevertheless, we can identify the pros and cons of the refactoring process.
+
+Disadvantages:
+
+- Blocks of code may be copied and pasted to achieve the same goal.  Best practice is to consolidate these blocks into one, making it more efficient.  If you do not know the       proper way to resolve this, you are left relying on the knowledge of others which can be time consuming in itself.
+- If you are beginning with another's code, you will have to familiarize yourself with it before you can start streamlining.
+- As evident in my own results, refactoring may not always lead to a more efficient solution.
+
+Advantages:
+
+- Adding comments to each step of code helps everyone, let alone yourself, in interpretation
+- Adding white space, divvying out succinct sections/blocks of code makes interpretation easier
+- Debugging and identifying precesses becomes vastly easier when reformatting the code
+- Ideally, all of the above would allow you to correct the original code with something more efficient
+
+We must always consider the refactoring process as an essential piece of the coding process.  The main intent of refactoring is to augment the code for ease of reading and correcting blocks for efficiency.  When given a new set of code written by another, refactoring also provides us the opportunity to streamline and make more efficent a code that has been historically relied upon.  While my own results in terms of run-time may not display the benefits of refactoring, it is abundantly evident that the process is advantageous in terms of interpretation and opportunity for efficiency.
