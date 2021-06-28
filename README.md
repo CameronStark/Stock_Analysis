@@ -4,13 +4,13 @@
 
 ### Background
 
-Steve was a big fan of the wrokbook we created for him (green_stocks). At the click of a button, he can analyze an entire dataset. However, Steve would like to do more research from the last few years. Our code does the required for a dozen stocks, adding potentially thousands more could either choke it up or provide such a long run time it would inadequate.
+Steve was a big fan of the workbook we created for him (green_stocks). At the click of a button, he can analyze an entire dataset. However, Steve would like to do more research from the last few years. Our code does the required for a dozen stocks, adding potentially thousands more could either choke it up or provide such a long run time it would prove inadequate.
 
 ### Directive
-This challenge's primary focus is refactoring, making the solution we worked on in module 2 collect all of the data required in a more succinct, quicker fassion. Acheiving the latter would determine whether or not refactoring the module 2 code did, in fact, provide a more elegant and efficient VBA code. The written analysis below will provide details on the findings.
+This challenge's primary focus is refactoring, making the solution we worked on in module 2 collect all of the data required in a more succinct, quicker fassion. This achievement would determine whether or not refactoring the module 2 code did, in fact, provide a more elegant and efficient VBA code. The written analysis below will discuss the details on the findings.
 
 ### Purpose
-Refactoring is integral to the coding process. The first run through of determining code for any solution may succeed without issue.  The truth is that while that code may function properly, there may be a better way to acheive the same goal.  Whether it be through adding comments making the code easier to read or reworking code blocks to perform the same process with less text, refactoring is essential to providing the end user with the best experience.  Ultimately, the goal is to enhance the code's efficiency.  Less run-time means the code is acheiving the same result as the original, but more quickly.
+Refactoring is integral to the coding process. The first run through of determining code for any solution may succeed without issue.  The truth is that while that code may function properly, there may be a better way to accomplish the same goal.  Whether it be through adding comments making the code easier to read or reworking code blocks to perform the same process with less text, refactoring is essential to providing the end user with the best experience.  Ultimately, the goal is to enhance the code's efficiency.  Less run-time means the code is returning the same result as the original, but more quickly.
 
 ## Deliverables
 
@@ -104,7 +104,7 @@ Step 3d:
 
 ## Summary
 
-Both the 2017 and 2018 analyises had longer run times after refactoring.  This is a bit baffling and leads me to think I may have accidentally augmented the original code which may have made it more efficient.  The easiest way to determine this is to look through my commits.  Nevertheless, we can identify the pros and cons of the refactoring process.
+Both the 2017 and 2018 analyises had longer run times after refactoring.  This is a bit baffling and leads me to think I could have accidentally augmented the original code making it more efficient.  The easiest way to determine this is to look through my commits - my incumbent responsibilty.  Nevertheless, we can identify the pros and cons of the refactoring process.
 
 Disadvantages:
 
